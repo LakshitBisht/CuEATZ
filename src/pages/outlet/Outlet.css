@@ -1,0 +1,43 @@
+.outlet {
+  text-align: center;
+  color: #fff;
+}
+.outlet section {
+  padding: 50px 5vw;
+  scroll-margin-top: 50px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 1.6;
+}
+.outlet-title {
+  font-size: 2.5rem;
+}
+.outlet-type-icon {
+  height: 2rem;
+}
+.outlet-logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.outlet .section-container {
+  width: 100%;
+}
+.outlet .v-center {
+  display: flex;
+  align-items: center;
+}
+#outlet-header {
+  height: 30vh;
+  background-size: cover;
+}
+.outlet {
+  min-height: 100vh;
+  padding-bottom: 310px;
+}
+
+@media (max-width: 450px) {
+  .outlet {
+    padding-bottom: 410px;
+  }
+}
